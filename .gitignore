@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+.idea/
+.git/
 __pycache__/
 __pypackages__/
 venv/
