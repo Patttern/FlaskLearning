@@ -104,6 +104,18 @@ flask db upgrade
 Chapter 7: Error Handling
 --
 
+Добавляем коружение в .flaskenv
+
+```bash
+FLASK_ENV=development
+```
+
+Установка модуля SMTP
+
+```bash
+python -m smtpd -n -c DebuggingServer localhost:8025
+```
+
 Chapter 8: Followers
 --
 
