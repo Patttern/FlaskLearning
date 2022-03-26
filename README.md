@@ -104,7 +104,7 @@ flask db upgrade
 Chapter 7: Error Handling
 --
 
-Добавляем коружение в .flaskenv
+Добавляем окружение в .flaskenv
 
 ```bash
 FLASK_ENV=development
