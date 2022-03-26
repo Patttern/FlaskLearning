@@ -94,6 +94,13 @@ pip install email-validator
 Chapter 6: Profile Page and Avatars
 --
 
+Добавляем поля в модель. Создаёт новую миграцию и применяем ее к БД
+
+```bash
+flask db migrate -m "new fields in user model"
+flask db upgrade
+```
+
 Chapter 7: Error Handling
 --
 
