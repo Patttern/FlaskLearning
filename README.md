@@ -84,6 +84,13 @@ flask shell
 Chapter 5: User Logins
 --
 
+Установка пакетов
+
+```bash
+pip install flask-login
+pip install email-validator
+```
+
 Chapter 6: Profile Page and Avatars
 --
 
