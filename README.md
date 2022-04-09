@@ -13,10 +13,15 @@ cd microblog
 python3 -m venv venv
 ```
 
-Активация venv
+Активация venv для Linux
 
 ```bash
 source venv/bin/activate
+```
+Или для Windows
+
+```bash
+source venv/Scripts/activate
 ```
 
 Деактивация venv
@@ -118,6 +123,15 @@ python -m smtpd -n -c DebuggingServer localhost:8025
 
 Chapter 8: Followers
 --
+
+Добавляем поля в модель. Создаёт новую миграцию и применяем ее к БД
+
+```bash
+flask db migrate -m "followers"
+flask db upgrade
+```
+
+Добавлены тесты.
 
 Chapter 9: Pagination
 --
