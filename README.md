@@ -1,10 +1,8 @@
-FlaskLearning
-==
+# FlaskLearning
 
 Источник [The Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
 
-Chapter 1: Hello, World!
---
+## Chapter 1: Hello, World!
 
 Подключение модуля venv
 
@@ -37,12 +35,11 @@ pip install flask
 pip install python-dotenv
 ```
 
-Chapter 2: Templates
+## Chapter 2: Templates
 
 Ничего важного
 
-Chapter 3: Web Forms
---
+## Chapter 3: Web Forms
 
 Установка пакетов
 
@@ -50,8 +47,7 @@ Chapter 3: Web Forms
 pip install flask-wtf
 ```
 
-Chapter 4: Database
---
+## Chapter 4: Database
 
 Установка пакетов
 
@@ -86,8 +82,7 @@ flask db upgrade
 flask shell
 ```
 
-Chapter 5: User Logins
---
+## Chapter 5: User Logins
 
 Установка пакетов
 
@@ -96,8 +91,7 @@ pip install flask-login
 pip install email-validator
 ```
 
-Chapter 6: Profile Page and Avatars
---
+## Chapter 6: Profile Page and Avatars
 
 Добавляем поля в модель. Создаёт новую миграцию и применяем ее к БД
 
@@ -106,8 +100,7 @@ flask db migrate -m "new fields in user model"
 flask db upgrade
 ```
 
-Chapter 7: Error Handling
---
+## Chapter 7: Error Handling
 
 Добавляем окружение в .flaskenv
 
@@ -121,8 +114,7 @@ FLASK_ENV=development
 python -m smtpd -n -c DebuggingServer localhost:8025
 ```
 
-Chapter 8: Followers
---
+## Chapter 8: Followers
 
 Добавляем поля в модель. Создаёт новую миграцию и применяем ее к БД
 
@@ -133,48 +125,35 @@ flask db upgrade
 
 Добавлены тесты.
 
-Chapter 9: Pagination
---
+## Chapter 9: Pagination
 
-Chapter 10: Email Support
---
+Ничего важного
 
-Chapter 11: Facelift
---
+## Chapter 10: Email Support
 
-Chapter 12: Dates and Times
---
+## Chapter 11: Facelift
 
-Chapter 13: I18n and L10n
---
+## Chapter 12: Dates and Times
 
-Chapter 14: Ajax
---
+## Chapter 13: I18n and L10n
 
-Chapter 15: A Better Application Structure
---
+## Chapter 14: Ajax
 
-Chapter 16: Full-Text Search
---
+## Chapter 15: A Better Application Structure
 
-Chapter 17: Deployment on Linux
---
+## Chapter 16: Full-Text Search
 
-Chapter 18: Deployment on Heroku
---
+## Chapter 17: Deployment on Linux
 
-Chapter 19: Deployment on Docker Containers
---
+## Chapter 18: Deployment on Heroku
 
-Chapter 20: Some JavaScript Magic
---
+## Chapter 19: Deployment on Docker Containers
 
-Chapter 21: User Notifications
---
+## Chapter 20: Some JavaScript Magic
 
-Chapter 22: Background Jobs
---
+## Chapter 21: User Notifications
 
-Chapter 23: Application Programming Interfaces (APIs)
---
+## Chapter 22: Background Jobs
+
+## Chapter 23: Application Programming Interfaces (APIs)
 
